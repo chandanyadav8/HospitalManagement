@@ -1,2 +1,2 @@
 # HospitalManagement
-Hospital management project
+I build Hospital management project  using  java, swing, jdbc ,sql
