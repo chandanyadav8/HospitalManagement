@@ -3,12 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/HospitalInformation.java</file>
             <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/Login.java</file>
             <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/SignUp.java</file>
-            <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/Updatepatient.java</file>
-            <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/AddDiagnosis.java</file>
-            <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/AddNewPatient.java</file>
+            <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/Home.java</file>
+            <file>file:/C:/Users/cy759/Documents/NetBeansProjects/HospitalMangamentGui/src/hospitalmangamentgui/FullPatientHistory.java</file>
         </group>
     </open-files>
 </project-private>

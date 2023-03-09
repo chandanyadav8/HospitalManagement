@@ -29,20 +29,12 @@ public class HospitalInformation extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
         jButton1 = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
-        jTextArea1.setRows(5);
-        jTextArea1.setText("The term hospital information system (HIS) \nencompasses both patient care and patient\n management systems,\n which support healthcare delivery,\n and financial and resource management systems, \nwhich support the business and strategic operations of a hospital.");
-        jScrollPane1.setViewportView(jTextArea1);
-
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(103, 43, 466, 189));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hospitalmangamentgui/icons8-close-64.png"))); // NOI18N
@@ -53,6 +45,14 @@ public class HospitalInformation extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 335, -1, -1));
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        jTextArea2.setRows(5);
+        jTextArea2.setText("The term hospital information system (HIS) \nencompasses both patient care and patient\n management systems,\n which support healthcare delivery,\n and financial and resource management systems, \nwhich support the business and strategic operations of a hospital.\n");
+        jScrollPane2.setViewportView(jTextArea2);
+
+        getContentPane().add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 30, 570, 260));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -104,7 +104,7 @@ public class HospitalInformation extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea2;
     // End of variables declaration//GEN-END:variables
 }

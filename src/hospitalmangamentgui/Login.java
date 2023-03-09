@@ -24,7 +24,7 @@ public class Login extends javax.swing.JFrame {
         initComponents(); 
    
     }
-
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -126,7 +126,7 @@ public class Login extends javax.swing.JFrame {
             }
             else{
                          
-               JOptionPane.showMessageDialog(null, "Id not found");
+               JOptionPane.showMessageDialog(null, "user not found");
                
             }
                     

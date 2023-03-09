@@ -61,6 +61,12 @@ public class AddDiagnosis extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setText("PatientId");
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(53, 31, 81, 25));
+
+        jTextFieldpatient.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldpatientActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextFieldpatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(209, 34, 92, -1));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -145,6 +151,11 @@ public class AddDiagnosis extends javax.swing.JFrame {
 
         jComboBox1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Normal", "Good", "vip", "great" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 300, 72, -1));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/hospitalmangamentgui/bed.jpg"))); // NOI18N
@@ -234,6 +245,14 @@ public class AddDiagnosis extends javax.swing.JFrame {
     }                                             
 
     }//GEN-LAST:event_jButtonsubmitActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void jTextFieldpatientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldpatientActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldpatientActionPerformed
 
     /**
      * @param args the command line arguments
